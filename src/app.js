@@ -21,11 +21,11 @@ app.use(bodyParser.json());
 
 
 
-const dataArr = [];  // Data from the User Stores in this dataArr Object 
+const dataArr = [];  // Data from  the User Stores in this dataArr Object 
 
 // GET API JSON DEFAULT
 app.get('/api/v1/on-covid-19', (req, res) =>{
-    const data = dataArr[0];
+    const data = dataArr[0] ;
     //console.log(data);  
     if(typeof data === 'undefined'){
         res.status(404).send('There is no data object');
