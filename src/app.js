@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 
 
-const dataArr = [];  // Data from the User Stores in dataArr Object 
+const dataArr = [];  // Data from the User Stores in this dataArr Object 
 
 // GET API JSON DEFAULT
 app.get('/api/v1/on-covid-19', (req, res) =>{
